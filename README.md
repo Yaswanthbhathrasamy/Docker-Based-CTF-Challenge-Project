@@ -11,11 +11,11 @@ The deeper you dig, the stranger and more dangerous—Nevermore becomes.
 - Must chain 4 vulnerabilities 🛠️ to retrieve both.
 - Solve in sequence to progress 🔐.
 
-🕳️ Vulnerabilities
-💉 SQL Injection (Login Bypass) — Gain student-level access.
-🗝️ IDOR — Access another student’s diary 📓 and get Flag 1 🚩.
-🕸️ Stored XSS — Capture the headmistress’s session 🍪.
-💻 Command Injection — Execute server commands 🖥️ to retrieve Flag 2 🏆.
+🕳️ Vulnerabilities:
+- 💉 SQL Injection (Login Bypass) — Gain student-level access.
+- 🗝️ IDOR — Access another student’s diary 📓 and get Flag 1 🚩.
+- 🕸️ Stored XSS — Capture the headmistress’s session 🍪.
+- 💻 Command Injection — Execute server commands 🖥️ to retrieve Flag 2 🏆.
 
 ⚙️ Technology Stack
 - Language: 🐘 PHP 
