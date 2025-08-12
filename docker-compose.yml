@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/var/www/html
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: wednesday_ctf
+      MYSQL_USER: ctfuser
+      MYSQL_PASSWORD: ctfpass
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:

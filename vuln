@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Vulnerable SUID binary for privilege escalation
+
+if [ "$1" == "root_shell" ]; then
+    /bin/bash
+else
+    echo "Usage: vuln root_shell"
+fi
