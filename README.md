@@ -46,8 +46,6 @@ Set inside Nevermore Academy, you are an undercover student trying to uncover tw
    ```bash
    docker-compose up --build
    docker exec -i nevermore-db mysql -u root -prootpass wednesday_ctf < db/init/init_db.sql
-
-   docker exec -i <db_container_id> mysql -u root -prootpass wednesday_ctf < /var/www/html/init_db.sql
    ```
 4. Access the web app at `http://localhost:8080`.
 
